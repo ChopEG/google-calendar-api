@@ -35,6 +35,12 @@ class GoogleCalendar {
         });
     }
 
+    static error(error) {
+        return {
+            message: 'something wrong!'
+        };
+    }
+
     static saveToken(token) {
         const self = this;
 
